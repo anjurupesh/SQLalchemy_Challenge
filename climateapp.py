@@ -7,7 +7,7 @@ import numpy as np
 
 # Database Setup
 
-engine = create_engine("sqlite:///hawaii.sqlite")
+engine = create_engine("sqlite:////Users/owner/Desktop/GWDataBootCamp/Home-work/SQLalchemy_Challenge/Resources/hawaii.sqlite")
 conn = engine.connect()
 
 # reflect an existing database into a new model
